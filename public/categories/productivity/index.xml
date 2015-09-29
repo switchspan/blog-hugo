@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Productivity on Switchspan: Hindsight is an exact science</title>
+    <link>http://localhost:1313/categories/productivity/</link>
+    <description>Recent content in Productivity on Switchspan: Hindsight is an exact science</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 02 Jun 2013 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/productivity/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>From WordPress to Octopress</title>
+      <link>http://localhost:1313/post/2013-06-02-from-wordpress-to-octopress/</link>
+      <pubDate>Sun, 02 Jun 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/post/2013-06-02-from-wordpress-to-octopress/</guid>
+      <description>
+
+&lt;p&gt;{% img right /images/wordpress_to_octopress.png 440 &amp;lsquo;Wordpress to Octopress&amp;rsquo; %}&lt;/p&gt;
+
+&lt;p&gt;You may or may not have noticed this blog has switched from a
+hosted &lt;a href=&#34;http://www.wordpress.org&#34;&gt;WordPress&lt;/a&gt; blog to a &lt;a href=&#34;http://octopress.org&#34;&gt;Octopress&lt;/a&gt; blog.
+I originally started looking at migrating the blog for a couple of
+reasons:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;I love ruby and I wanted to play around with &lt;a href=&#34;http://jekyllrb.com&#34;&gt;Jekyll&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Jekyll can be deployed easily to &lt;a href=&#34;http://pages.github.com&#34;&gt;GitHub Pages&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Github Pages is free (as in like free beer&amp;hellip;)&lt;/li&gt;
+&lt;li&gt;The amount of comment spam I am getting on WordPress was driving me
+crazy (yes I know I can use Akismet)&lt;/li&gt;
+&lt;li&gt;I wanted to customize my blog a little more than what is allowed
+with WordPress&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;!-- more --&gt;
+
+&lt;h2 id=&#34;the-initial-search:df86dc409d528fdc365321b82b0da9f6&#34;&gt;The initial search&lt;/h2&gt;
+
+&lt;p&gt;Initially I started looking at some of the blogging tools that my
+friends at the &lt;a href=&#34;http://757rb.org&#34;&gt;Hampton Roads Ruby Users Group&lt;/a&gt; where using.
+The first one I came across that caught my interest was &lt;a href=&#34;http://github.com/metaskills&#34;&gt;Ken Collins&amp;rsquo;&lt;/a&gt; blog: &lt;a href=&#34;http://metaskills.net&#34;&gt;metaskills.net&lt;/a&gt;.
+The metaskills blog uses a modified version of Jekyll which Ken has added in a few items to organize and publish easier.
+You can check out his code &lt;a href=&#34;https://github.com/metaskills/metaskills.net&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&#34;first-draft-jekyll:df86dc409d528fdc365321b82b0da9f6&#34;&gt;First draft: Jekyll&lt;/h3&gt;
+
+&lt;p&gt;{% img right /images/octojekyll.png 200 &amp;lsquo;OctoJekyll&amp;rsquo; %}
+I started out creating a plain Jekyll blog and looking at how the static
+site generation worked.
+There are plenty of resources on the &lt;a href=&#34;http://jekyllrb.com&#34;&gt;Jekyll site&lt;/a&gt; which can show you how to install Jekyll and get it running.
+You will need &lt;a href=&#34;http://www.ruby-lang.org&#34;&gt;Ruby&lt;/a&gt; and
+&lt;a href=&#34;http://www.rubygems.org&#34;&gt;RubyGems&lt;/a&gt;.
+If you are dabbling in Ruby or Rails, you will already have both of them.&lt;/p&gt;
+
+&lt;h3 id=&#34;second-draft-jekyll-bootstrap:df86dc409d528fdc365321b82b0da9f6&#34;&gt;Second draft: Jekyll Bootstrap&lt;/h3&gt;
+
+&lt;p&gt;{% img left /images/Jekyll-bootstrap-screen.png 300 &amp;lsquo;Jekyll Bootstrap Getting Started screen&amp;rsquo; %}
+While I found Jekyll pretty cool, I wanted my site to have a little bit
+of styling.
+Not being a graphic designer of any sort, I started looking for some
+themes that I could use to modify.
+After doing a little digging on Google for Jekyll themes, I found &lt;a href=&#34;http://jekyllbootstrap.com&#34;&gt;Jekyll Bootstrap&lt;/a&gt; by
+X. Note: There is also another spin off from this project called
+&lt;a href=&#34;http://ruhoh.com&#34;&gt;Ruhoh&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&#34;final-draft-octopress:df86dc409d528fdc365321b82b0da9f6&#34;&gt;Final draft: Octopress&lt;/h3&gt;
+
+&lt;p&gt;{% img right /images/octopress-logo.png 200 &amp;lsquo;Octopress Logo&amp;rsquo; %}
+I am not sure why I never noticed or found it sooner (as I am sure I
+have heard of Octopress before!) &amp;ndash; but I finally stumbled across the
+&lt;a href=&#34;http://octopress.org&#34;&gt;Octopress site&lt;/a&gt;. Octopress is a framework
+designed by &lt;a href=&#34;http://brandonmathis.com&#34;&gt;Brandon Mathis&lt;/a&gt; for Jekyll.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;I had finally found the toolset I was looking for!&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Octopress had plenty of themes, still stuck to Jekyll as the method of generating static
+sites &amp;ndash; and had plugins which smoothed over some of the &amp;lsquo;warts&amp;rsquo; of
+Jekyll out of the box.&lt;/p&gt;
+
+&lt;p&gt;Here is some of the static blog-generating goodness (i.e. integrations) you will find in
+Octopress:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Github&lt;/li&gt;
+&lt;li&gt;Google+&lt;/li&gt;
+&lt;li&gt;Twitter&lt;/li&gt;
+&lt;li&gt;Disqus&lt;/li&gt;
+&lt;li&gt;Google Analytics&lt;/li&gt;
+&lt;li&gt;Pinboard&lt;/li&gt;
+&lt;li&gt;Delicious&lt;/li&gt;
+&lt;li&gt;Facebook likes&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The configuration file in a &amp;lsquo;stock&amp;rsquo; Octopress install is a nice YAML
+layout. Here is a snippet:&lt;/p&gt;
+
+&lt;p&gt;``` yaml _config.yml&lt;/p&gt;
+
+&lt;h1 id=&#34;toc_4:df86dc409d528fdc365321b82b0da9f6&#34;&gt;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;ndash;&lt;/h1&gt;
+
+&lt;h1 id=&#34;main-configs:df86dc409d528fdc365321b82b0da9f6&#34;&gt;Main Configs&lt;/h1&gt;
+
+&lt;h1 id=&#34;toc_6:df86dc409d528fdc365321b82b0da9f6&#34;&gt;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;ndash;&lt;/h1&gt;
+
+&lt;p&gt;url: &lt;a href=&#34;http://yourblogurl.com&#34;&gt;http://yourblogurl.com&lt;/a&gt;
+title: Your Blog Name
+subtitle: Some catchy subtitle..
+author: Your Name Here
+simple_search: &lt;a href=&#34;http://google.com/search&#34;&gt;http://google.com/search&lt;/a&gt;
+description: This will show in the META tags
+```&lt;/p&gt;
+
+&lt;p&gt;Making changes is as easy as changing the appropriate key/value
+pair and then from the terminal, run: &lt;code&gt;rake preview&lt;/code&gt; to view it on &lt;a href=&#34;http://localhost:4000&#34;&gt;http://localhost:4000&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Deploying the site is just as easy:
+&lt;code&gt;bash
+rake generate   #generate the static site content
+rake deploy     #deploy the site to your deploy location (i.e. github)
+&lt;/code&gt;
+You can even abbreviate deployment to: &lt;code&gt;rake gen_deploy&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Octopress also has plenty of themes as a starting point for customizing your own blog.
+The github repo &lt;a href=&#34;https://github.com/imathis/octopress/wiki/3rd-Party-Octopress-Themes&#34;&gt;here&lt;/a&gt; is a good starting point for 3rd party Octopress themes.&lt;/p&gt;
+
+&lt;p&gt;I am now (&lt;em&gt;for the time being&lt;/em&gt;) sold on Octopress and will be using it for
+my posts going forward. If you are in the market for a new static
+blogging platform, give it a try &amp;ndash; I think you will be pleasantly
+surprised.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Global day of Coderetreat</title>
+      <link>http://localhost:1313/post/2012-12-09-global-day-of-coderetreat/</link>
+      <pubDate>Sun, 09 Dec 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/post/2012-12-09-global-day-of-coderetreat/</guid>
+      <description>
+
+&lt;p&gt;Yesterday I participated in my first
+&lt;a href=&#34;http://coderetreat.org&#34;&gt;coderetreat&lt;/a&gt; at &lt;a href=&#34;http://www.757creativespace.com&#34;&gt;757 Creative Space&lt;/a&gt; in Norfolk, VA.
+ This happened to be the &lt;a href=&#34;http://globalday.coderetreat.org/&#34;&gt;Global day of Coderetreat&lt;/a&gt; (which was organized by coderetreat.org) and now I am wondering why I didn’t go to a coderetreat sooner.
+The coderetreat was facilitated by &lt;a href=&#34;http://myfakeif.blogspot.com/&#34;&gt;Ryan
+Castillo&lt;/a&gt; from the &lt;a href=&#34;http://757rb.org&#34;&gt;757Ruby users group&lt;/a&gt; and sponsored by some great companies: &lt;a href=&#34;http://www.bootstraphero.com&#34;&gt;Bootstrap
+Hero&lt;/a&gt; and &lt;a href=&#34;http://www.xtuple.com/&#34;&gt;xTuple&lt;/a&gt; sponsored all of the good eats (which are essential to keep the code flowing!) and there were quite a few other great sponsors as well.
+&amp;lt;!&amp;ndash; more &amp;ndash;&amp;gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;what-is-a-code-retreat:e5427fa611f5a49cf659ce5cae569ae1&#34;&gt;What is a code retreat?&lt;/h2&gt;
+
+&lt;p&gt;{% img left /images/IMG_1509.jpg 184 244 %}
+If you haven’t been to a coderetreat – it basically a day of honing your software development skills to become a better developer.
+If you are serious about your profession as a software developer – these
+types of training opportunities are ones you should attend. In our day’s
+retreat, we focused on the skills of
+&lt;a href=&#34;http://en.wikipedia.org/wiki/Test-driven_development&#34;&gt;TDD&lt;/a&gt; and
+&lt;a href=&#34;http://www.extremeprogramming.org/rules/pair.html&#34;&gt;Pair Programming&lt;/a&gt;.
+Both of these techniques are part of &lt;a href=&#34;http://www.extremeprogramming.org/index.html&#34;&gt;Extreme Programming&lt;/a&gt;.
+The idea for coderetreat was spawned at the January, 2009, Codemash
+Conference by Gary Bernhardt, Patrick Welsh, Nayan Hajratwala and Corey
+Haines.&lt;/p&gt;
+
+&lt;h2 id=&#34;the-day-s-activities:e5427fa611f5a49cf659ce5cae569ae1&#34;&gt;The day&amp;rsquo;s activities&lt;/h2&gt;
+
+&lt;p&gt;{% img right /images/IMG_1510.jpg 244 184 %}
+The only project used for the day is to code a version of &lt;a href=&#34;http://en.wikipedia.org/wiki/Conway%27s_game_of_life&#34;&gt;Conway&amp;rsquo;s Game
+of Life&lt;/a&gt;.
+Now, I knew a little about the Game of Life and that it was typically central to a coderetreat, but I purposefully did not look up any info on coding it, because I didn’t want it to take away from the discovery experience.
+Programmers are typically paired for 45 minutes and each pair has to delete all code and destroy all notes at the end of their iteration.&lt;/p&gt;
+
+&lt;p&gt;Ryan did a great job of getting everyone introduced and oriented. Once we had all of the intros under our belt, we paired up and started on our first iteration of the Game of Life.&lt;/p&gt;
+
+&lt;h3 id=&#34;along-came-the-curve-balls:e5427fa611f5a49cf659ce5cae569ae1&#34;&gt;Along came the curve-balls&lt;/h3&gt;
+
+&lt;p&gt;Then came the curve-balls: requirements changing during the iterations, ping-pong coding (switching the person typing and observing between writing functions), blind coding (the 2 programmers couldn’t talk, and one wrote the tests – the other the code to pass the test) and timed coding from test to implementation.
+{% img left /images/IMG_1512.jpg 244 184 %}&lt;/p&gt;
+
+&lt;p&gt;Each of these “curve-balls” built on the other and exposed some of the typical flaws in the way most people write software as well as the things that can be done to fix it.
+After each 45 minute iteration we held a sort of “after action review” to see what each person had learned from the iteration.
+These iterations brought out the importance of writing clear function/method/variable names, writing your tests first, and doing the simplest thing possible to pass the test, then moving to the next item.
+It is amazing to see how quickly this technique of TDD can flush out an excellent design for any software project.&lt;/p&gt;
+
+&lt;h3 id=&#34;the-retrospective:e5427fa611f5a49cf659ce5cae569ae1&#34;&gt;The retrospective&lt;/h3&gt;
+
+&lt;p&gt;The day ended in a wrap-up review of all of the items during the day from iteration – to see what we had learned, what were surprised by, and what we would change.
+Everyone seemed to have picked up something constructive from the experience – so the coderetreat was in my opinion a big success.&lt;/p&gt;
+
+&lt;p&gt;Ryan was a great facilitator for the event – he nudged us into seeing the ‘teachable moments’ during the iterations.
+Meeting all of the great developers there was also a great part of the experience.
+We had programmers coding in Java, C#, Ruby, Python, JavaScript, and even Objective-C. Everyone was willing to work with others, even in languages they were not quite familiar with.
+ We even had a pair of developers that came down from Richmond to attend the event.&lt;/p&gt;
+
+&lt;p&gt;I look forward to the next coderetreat!&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

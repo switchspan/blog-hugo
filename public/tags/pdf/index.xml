@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pdf on Switchspan: Hindsight is an exact science</title>
+    <link>http://localhost:1313/tags/pdf/</link>
+    <description>Recent content in Pdf on Switchspan: Hindsight is an exact science</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 05 Apr 2013 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/pdf/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Batteries Included</title>
+      <link>http://localhost:1313/post/2013-04-05-batteries-included/</link>
+      <pubDate>Fri, 05 Apr 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/post/2013-04-05-batteries-included/</guid>
+      <description>&lt;p&gt;I usually use a desktop PC and my Macbook Air on a daily basis during the week. In going back and forth between Windows and Mac OS X, I have noticed a couple of things that have hammered home the point that hardware is not the only thing Apple does well &amp;ndash; software is too.
+&amp;lt;!&amp;ndash; more &amp;ndash;&amp;gt;
+{% img left /images/password_protect_files_snowleopard.jpg 350 Save as PDF on Mac %}
+The first thing that occurred to me is Mac OS X has had the ability to print and edit PDF files at least since Mac OS X Leopard. With Windows, I need to download some type of PDF print driver and an Adobe viewer. Mac OS X has preview (which works for both images and PDF files), which will let me view and do some light editing on a PDF file as wells annotate.&lt;/p&gt;
+
+&lt;p&gt;{% img right /images/notification-center.jpg Mac OS Notification Center %}
+The second thing I noticed was Mac OS X Lions notifications center provides not only a nice area to see your email and app notifications, but also an easy way to post to Twitter and Facebook. Growl notification is baked in as well &amp;ndash; I have to download a growl client for windows (and the app has to use Growl).&lt;/p&gt;
+
+&lt;p&gt;I am not quite sure why Windows doesn&amp;rsquo;t have &amp;ldquo;batteries included&amp;rdquo; when it comes to PDF files, but it is just a nice feature that Apple has added into Mac OS X. Don&amp;rsquo;t get me wrong: I have used Windows for a long time &amp;ndash; and I was a Windows user before I used a Mac. Windows gets a lot of things right and I will continue to use Windows as well &amp;ndash; but Apple seems to be getting very good at sanding down the &amp;ldquo;friction points&amp;rdquo; you encounter with software to make for an easier, elegant user experience.&lt;/p&gt;
+
+&lt;p&gt;Sometimes its just nice for things to work as you intend them to and to serendipitously find some functionality that is often overlooked&amp;hellip;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

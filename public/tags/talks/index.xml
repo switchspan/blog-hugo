@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Talks on Switchspan: Hindsight is an exact science</title>
+    <link>http://localhost:1313/tags/talks/</link>
+    <description>Recent content in Talks on Switchspan: Hindsight is an exact science</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 10 Jan 2013 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/talks/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Refining your tech talk</title>
+      <link>http://localhost:1313/post/2013-01-10-refining-your-tech-talk/</link>
+      <pubDate>Thu, 10 Jan 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/post/2013-01-10-refining-your-tech-talk/</guid>
+      <description>
+
+&lt;h2 id=&#34;shaking-off-the-rust:0b079ec9875d52687a2f6c6364aa59cd&#34;&gt;Shaking off the rust&lt;/h2&gt;
+
+&lt;p&gt;{% img left /images/hanselman.jpg Scott Hanselman %}
+Last night I did the first tech talk (&lt;a href=&#34;http://www.rabbitmq.com/&#34;&gt;RabbitMQ&lt;/a&gt; and &lt;a href=&#34;http://easynetq.com/&#34;&gt;EasyNetQ&lt;/a&gt;) that I have done in at least a one or two years at the &lt;a href=&#34;http://www.hrnug.org/&#34;&gt;Hampton Roads .NET Users Group (HRNUG)&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;I try to have respect for my audience when giving these talks and work
+provide them with something that is entertaining as well as
+educational. I wouldn’t want my time wasted with a bad presentation – so I don’t want to waste the audience’s time either! In giving my talks, I strive to emulate the great tech speakers and educators like &lt;a href=&#34;http://www.hanselman.com/blog/&#34;&gt;Scott Hanselman&lt;/a&gt; and &lt;a href=&#34;http://www.8thlight.com/our-team/robert-martin&#34;&gt;‘Uncle Bob’ Martin&lt;/a&gt;.
+&amp;lt;!&amp;ndash; more &amp;ndash;&amp;gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://wekeroad.com/&#34;&gt;Rob Connery&lt;/a&gt; does a great interview of Scott Hanselman in his Full Throttle series on Tekpub on &lt;a href=&#34;http://tekpub.com/productions/ft_speaker&#34;&gt;how Scott prepares for a tech talk&lt;/a&gt;. If you are serious about giving tech talks, I highly recommend you look at it.&lt;/p&gt;
+
+&lt;h2 id=&#34;what-i-learned:0b079ec9875d52687a2f6c6364aa59cd&#34;&gt;What I learned&lt;/h2&gt;
+
+&lt;p&gt;Tech talks can through you some curve-balls that; if you are willing to pay attention, can provide some teachable moments that you can use to refine future tech talks. I found my teachable moments in a couple of areas while giving the presentation:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Make sure to use your phone or watch as a timer – to help you keep the ‘pace’ through your tech talk. Setting it to the max talk time and having it count down will work – or have a half way point set and check to see where you are in the total presentation I was allotted 60 – 75 minutes, but my talk came in at around 45 minutes because I though I was running out of time. These extra minutes could have been used to dive deeper into my code examples!&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;If you haven’t been playing with PowerPoint lately, &lt;a href=&#34;http://presentationsoft.about.com/od/powerpoint101/ss/shortcuts.htm&#34;&gt;brush up on the start (F5) / restart (SHIFT-F5) keystrokes&lt;/a&gt;. When you are in the middle of a presentation, it can disrupt the flow of the talk when you have to forward to the last slide you where one. I rehearsed my talk, except I didn’t rehearse switching into my demos. While F5 will start a slideshow in Power Point, it always starts at the beginning. In the middle of the talk, I couldn’t remember what the restart keystroke was, so I had to forward from the beginning slide each time I stopped for a demo. This can be a little choppy for the viewers.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;If you use any other tools, such as &lt;a href=&#34;http://technet.microsoft.com/en-us/sysinternals/bb897434.aspx&#34;&gt;ZoomIt&lt;/a&gt; – make sure you set their key mappings to what you want them to be and make sure you practice using it in your talk rehearsal.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Fortunately I get a do-over next month with the &lt;a href=&#34;http://757rb.org/&#34;&gt;757 Ruby Users Group&lt;/a&gt;. I have some tweaking to do to the presentation in order to tailor it for a slightly different audience, but the changes are really just the demos and substituting the &lt;a href=&#34;https://github.com/ruby-amqp/amqp&#34;&gt;amqp gem&lt;/a&gt; for EasyNetQ. But my lessons learned on the presentation flow will definitely be incorporated.&lt;/p&gt;
+
+&lt;p&gt;{% img center /images/unclebob.jpg Uncle Bob Martin %}&lt;/p&gt;
+
+&lt;p&gt;I am sure there will be many more of these teachable moments in the future…&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

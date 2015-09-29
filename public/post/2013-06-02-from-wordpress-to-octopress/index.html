@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="chrome=1">
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+
+<base href="http://localhost:1313/">
+<title>
+
+
+     From WordPress to Octopress 
+
+</title>
+<link rel="canonical" href="http://localhost:1313/post/2013-06-02-from-wordpress-to-octopress/">
+
+
+
+
+<link rel="stylesheet" href="/css/reset.css?1443547065">
+<link rel="stylesheet" href="/css/pygments.css?1443547065">
+<link rel="stylesheet" href="/css/main.css?1443547065">
+
+
+
+
+
+<link rel="shortcut icon"
+
+    href="/img/favicon.ico"
+
+>
+
+
+
+</head>
+
+
+<body lang="">
+
+<div class="section header"> 
+    <div class="container">
+        <div class="content">
+            <nav>
+                <ul>
+                    <a href="/posts"><li>Posts</li></a>
+                    <a href="/about"><li>About</li></a>
+                    <a href="/code"><li>Code</li></a>
+                </ul>
+            </nav>
+            <a href="/"><div class="name"></div></a>
+        </div>
+    </div>
+</div>
+
+<div class="section icons">
+    <div class="container">
+        <div class="content">
+
+        
+        
+        
+
+        
+
+        
+
+        
+
+        
+        </div>
+    </div>
+</div>
+
+<div class="section main">
+    <div class="container">
+        <div class="content">
+            
+
+<p>{% img right /images/wordpress_to_octopress.png 440 &lsquo;Wordpress to Octopress&rsquo; %}</p>
+
+<p>You may or may not have noticed this blog has switched from a
+hosted <a href="http://www.wordpress.org">WordPress</a> blog to a <a href="http://octopress.org">Octopress</a> blog.
+I originally started looking at migrating the blog for a couple of
+reasons:</p>
+
+<ol>
+<li>I love ruby and I wanted to play around with <a href="http://jekyllrb.com">Jekyll</a></li>
+<li>Jekyll can be deployed easily to <a href="http://pages.github.com">GitHub Pages</a></li>
+<li>Github Pages is free (as in like free beer&hellip;)</li>
+<li>The amount of comment spam I am getting on WordPress was driving me
+crazy (yes I know I can use Akismet)</li>
+<li>I wanted to customize my blog a little more than what is allowed
+with WordPress</li>
+</ol>
+
+<!-- more -->
+
+<h2 id="the-initial-search:df86dc409d528fdc365321b82b0da9f6">The initial search</h2>
+
+<p>Initially I started looking at some of the blogging tools that my
+friends at the <a href="http://757rb.org">Hampton Roads Ruby Users Group</a> where using.
+The first one I came across that caught my interest was <a href="http://github.com/metaskills">Ken Collins&rsquo;</a> blog: <a href="http://metaskills.net">metaskills.net</a>.
+The metaskills blog uses a modified version of Jekyll which Ken has added in a few items to organize and publish easier.
+You can check out his code <a href="https://github.com/metaskills/metaskills.net">here</a>.</p>
+
+<h3 id="first-draft-jekyll:df86dc409d528fdc365321b82b0da9f6">First draft: Jekyll</h3>
+
+<p>{% img right /images/octojekyll.png 200 &lsquo;OctoJekyll&rsquo; %}
+I started out creating a plain Jekyll blog and looking at how the static
+site generation worked.
+There are plenty of resources on the <a href="http://jekyllrb.com">Jekyll site</a> which can show you how to install Jekyll and get it running.
+You will need <a href="http://www.ruby-lang.org">Ruby</a> and
+<a href="http://www.rubygems.org">RubyGems</a>.
+If you are dabbling in Ruby or Rails, you will already have both of them.</p>
+
+<h3 id="second-draft-jekyll-bootstrap:df86dc409d528fdc365321b82b0da9f6">Second draft: Jekyll Bootstrap</h3>
+
+<p>{% img left /images/Jekyll-bootstrap-screen.png 300 &lsquo;Jekyll Bootstrap Getting Started screen&rsquo; %}
+While I found Jekyll pretty cool, I wanted my site to have a little bit
+of styling.
+Not being a graphic designer of any sort, I started looking for some
+themes that I could use to modify.
+After doing a little digging on Google for Jekyll themes, I found <a href="http://jekyllbootstrap.com">Jekyll Bootstrap</a> by
+X. Note: There is also another spin off from this project called
+<a href="http://ruhoh.com">Ruhoh</a>.</p>
+
+<h3 id="final-draft-octopress:df86dc409d528fdc365321b82b0da9f6">Final draft: Octopress</h3>
+
+<p>{% img right /images/octopress-logo.png 200 &lsquo;Octopress Logo&rsquo; %}
+I am not sure why I never noticed or found it sooner (as I am sure I
+have heard of Octopress before!) &ndash; but I finally stumbled across the
+<a href="http://octopress.org">Octopress site</a>. Octopress is a framework
+designed by <a href="http://brandonmathis.com">Brandon Mathis</a> for Jekyll.</p>
+
+<p><strong>I had finally found the toolset I was looking for!</strong></p>
+
+<p>Octopress had plenty of themes, still stuck to Jekyll as the method of generating static
+sites &ndash; and had plugins which smoothed over some of the &lsquo;warts&rsquo; of
+Jekyll out of the box.</p>
+
+<p>Here is some of the static blog-generating goodness (i.e. integrations) you will find in
+Octopress:</p>
+
+<ul>
+<li>Github</li>
+<li>Google+</li>
+<li>Twitter</li>
+<li>Disqus</li>
+<li>Google Analytics</li>
+<li>Pinboard</li>
+<li>Delicious</li>
+<li>Facebook likes</li>
+</ul>
+
+<p>The configuration file in a &lsquo;stock&rsquo; Octopress install is a nice YAML
+layout. Here is a snippet:</p>
+
+<p>``` yaml _config.yml</p>
+
+<h1 id="toc_4:df86dc409d528fdc365321b82b0da9f6">&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&ndash;</h1>
+
+<h1 id="main-configs:df86dc409d528fdc365321b82b0da9f6">Main Configs</h1>
+
+<h1 id="toc_6:df86dc409d528fdc365321b82b0da9f6">&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&ndash;</h1>
+
+<p>url: <a href="http://yourblogurl.com">http://yourblogurl.com</a>
+title: Your Blog Name
+subtitle: Some catchy subtitle..
+author: Your Name Here
+simple_search: <a href="http://google.com/search">http://google.com/search</a>
+description: This will show in the META tags
+```</p>
+
+<p>Making changes is as easy as changing the appropriate key/value
+pair and then from the terminal, run: <code>rake preview</code> to view it on <a href="http://localhost:4000">http://localhost:4000</a></p>
+
+<p>Deploying the site is just as easy:
+<code>bash
+rake generate   #generate the static site content
+rake deploy     #deploy the site to your deploy location (i.e. github)
+</code>
+You can even abbreviate deployment to: <code>rake gen_deploy</code></p>
+
+<p>Octopress also has plenty of themes as a starting point for customizing your own blog.
+The github repo <a href="https://github.com/imathis/octopress/wiki/3rd-Party-Octopress-Themes">here</a> is a good starting point for 3rd party Octopress themes.</p>
+
+<p>I am now (<em>for the time being</em>) sold on Octopress and will be using it for
+my posts going forward. If you are in the market for a new static
+blogging platform, give it a try &ndash; I think you will be pleasantly
+surprised.</p>
+
+        </div>
+    </div>
+</div>
+
+
+
+
+</body>
+</html>
+

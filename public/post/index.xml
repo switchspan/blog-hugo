@@ -1,0 +1,568 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Switchspan: Hindsight is an exact science</title>
+    <link>http://localhost:1313/post/</link>
+    <description>Recent content in Posts on Switchspan: Hindsight is an exact science</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 07 Jan 2014 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>RabbitMQ Cookbook</title>
+      <link>http://localhost:1313/post/2014-01-07-rabbitmq-cookbook/</link>
+      <pubDate>Tue, 07 Jan 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/post/2014-01-07-rabbitmq-cookbook/</guid>
+      <description>
+
+&lt;p&gt;{% img left /images/rabbitmq_cookbook.jpg 200 %}
+I recently finished my first go at being a technical reviewer for a technology book: the &lt;a href=&#34;http://bit.ly/1b2OwRo&#34;&gt;RabbitMQ Cookbook&lt;/a&gt;. I kind of &amp;lsquo;happened&amp;rsquo; into reviewing from some of the tech talks, blog posts and &lt;a href=&#34;https://speakerdeck.com/switchspan/rabbitmq-and-easynetq&#34;&gt;slide decks&lt;/a&gt; I have done on the subject of &lt;a href=&#34;http://www.rabbitmq.com/&#34;&gt;RabbitMQ&lt;/a&gt;. An editorial representative from &lt;a href=&#34;http://www.packtpub.com/&#34;&gt;Packt Publishing&lt;/a&gt; contacted me to see if I would be interested in being a technical reviewer for the upcoming book &amp;ndash; and the adventure began.&lt;/p&gt;
+
+&lt;p&gt;A technical reviewer looks primarily at the technical correctness and ease of understanding in each of the chapters. There are plenty of opportunities to offer suggestions for improvements to the author(s).&lt;/p&gt;
+
+&lt;h2 id=&#34;technical-reviewing:387fd69b3fec7d6d8ae080b51a91f96e&#34;&gt;Technical Reviewing&lt;/h2&gt;
+
+&lt;p&gt;TBD&lt;/p&gt;
+
+&lt;h2 id=&#34;the-book:387fd69b3fec7d6d8ae080b51a91f96e&#34;&gt;The Book&lt;/h2&gt;
+
+&lt;p&gt;This book is an excellent resource for anyone looking to use RabbitMQ (or any other AMQP server for that matter&amp;hellip;) for queuing/integration. Most modern software components &lt;a href=&#34;http://en.wikipedia.org/wiki/Message_passing&#34;&gt;pass messages&lt;/a&gt; to other components, not data. I thoroughly enjoyed reviewing this book and learn some new RabbitMQ tricks in the process. The format uses a clean cookbook of recipe description, how to implement the recipe, and how the recipe works. It makes finding a solution to a queuing challenge a quick and easy process.&lt;/p&gt;
+
+&lt;p&gt;This book comprises over 265 pages and 70 recipes for a myriad of integration solutions. &lt;a href=&#34;http://www.packtpub.com/authors/profiles/sigismondo-boschi&#34;&gt;Sigismondo&lt;/a&gt; and &lt;a href=&#34;http://blog.indigenidigitali.com/tag/gabriele-santomaggio/&#34;&gt;Gabriele&lt;/a&gt; did a great job of showing code examples for Java, C#, Ruby as well as others languages. In addition to the examples, they also show how to properly manage a RabbitMQ server and deploy it to the cloud.&lt;/p&gt;
+
+&lt;p&gt;Here is a brief table of contents:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;1. Working with AMQP
+2. Going beyond the AMQP Standard
+3. Managing RabbitMQ
+4. Mixing Different Technologies
+5. Using RabbitMQ in Web Applications
+6. Developing Scalable Applications
+7. Developing High-Availability Applications
+8. Performance Tuning for RabbitMQ
+9. Extending RabbitMQ Functionality
+10. RabbitMQ on AWS
+11. AMQP and Cloud Computing - RabbitMQ on PAAS
+12. Managing RabbitMQ Error Conditions
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;One of my favorite recipes in the book is for auto scaling RabbitMQ servers on AWS &amp;ndash; it is a formula you can use for not only RabbitMQ but other EC2 instances on AWS.&lt;/p&gt;
+
+&lt;h2 id=&#34;conclusion:387fd69b3fec7d6d8ae080b51a91f96e&#34;&gt;Conclusion&lt;/h2&gt;
+
+&lt;p&gt;If you want a flexible/scalable backbone for your Enterprise application (or future Enterprise application) &amp;ndash; RabbitMQ is a great option, and this book is a great head start for that option.&lt;/p&gt;
+
+&lt;p&gt;Technical reviewing is also a great way to get involved with a technology that you like!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Future-Proofing Your Career</title>
+      <link>http://localhost:1313/post/2013-10-24-future-proofing-your-career/</link>
+      <pubDate>Thu, 24 Oct 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/post/2013-10-24-future-proofing-your-career/</guid>
+      <description>
+
+&lt;p&gt;{% img right /images/prag_thinking_book.jpg 200 308 %}
+I finished reading &lt;a href=&#34;http://pragprog.com/book/ahptl/pragmatic-thinking-and-learning&#34;&gt;Pragmatic Thinking &amp;amp; Learning: Refactor Your Wetware&lt;/a&gt; by &lt;a href=&#34;http://en.wikipedia.org/wiki/Andy_Hunt_%28author%29&#34;&gt;Andy Hunt&lt;/a&gt; a couple of days ago and I have been reflecting on it a lot lately. (Note: &lt;a href=&#34;http://www.mindmeister.com/100157863/pragmatic-thinking-and-learning-refactor-your-wetware&#34;&gt;here&lt;/a&gt; is a very cool mind map of the books contents by &lt;a href=&#34;http://www.mindmeister.com&#34;&gt;MindMeister&lt;/a&gt;) The major topics of the book are:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;The &lt;a href=&#34;http://en.wikipedia.org/wiki/Dreyfus_model_of_skill_acquisition&#34;&gt;Dreyfus model of skill acquisition&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Using your &amp;lsquo;&lt;a href=&#34;http://www.drawright.com/theory.htm&#34;&gt;R-mode&lt;/a&gt;&amp;rsquo; of the brain&lt;/li&gt;
+&lt;li&gt;Learning deliberately&lt;/li&gt;
+&lt;li&gt;Gaining experience&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;There are plenty of other items which Andy delves into throughout the book. It is very thoughtfully researched and written &amp;ndash; and it is a &lt;em&gt;must&lt;/em&gt; for any career software developer to read (Along with &lt;a href=&#34;http://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882&#34;&gt;Clean Code&lt;/a&gt;, &lt;a href=&#34;http://www.amazon.com/The-Clean-Coder-Professional-Programmers/dp/0137081073&#34;&gt;The Clean Coder&lt;/a&gt; and the &lt;a href=&#34;http://www.amazon.com/Pragmatic-Programmer-Journeyman-Master/dp/020161622X/ref=sr_1_1?s=books&amp;amp;ie=UTF8&amp;amp;qid=1382726080&amp;amp;sr=1-1&amp;amp;keywords=The+Pragmatic+Programmer&#34;&gt;Pragmatic Programmer&lt;/a&gt;).&lt;/p&gt;
+
+&lt;h2 id=&#34;the-right-brain:b96c280e7a3c99f5d16814825f459996&#34;&gt;The &amp;lsquo;Right&amp;rsquo; Brain&lt;/h2&gt;
+
+&lt;p&gt;{% img left /images/dreyfus-model.png 289 70 %}
+At it&amp;rsquo;s essence, the book points out that each of us have a different level of expertise in any skill we have  &amp;ndash; be it programming, cooking, speaking, etc. The majority of people stay at a &amp;lsquo;advance beginner&amp;rsquo; level on the Dreyfus model and never really advance into the &amp;lsquo;competent&amp;rsquo;, &amp;lsquo;proficient&amp;rsquo; or &amp;lsquo;expert&amp;rsquo; levels of the model.  {% img right /images/left&lt;em&gt;right_brain.jpg 250 210 %}
+I believe we should all aspire to achieve an &amp;lsquo;expert&amp;rsquo; level skills in the areas that correspond to our career field. In order to attain this level, we have to engage the &lt;a href=&#34;http://www.drawright.com/theory.htm&#34;&gt;R-mode&lt;/a&gt; of our brain to leverage our experiences. The R-mode is the holistic, intuitive, creative portion of our brain. You can&amp;rsquo;t access your R-mode as easily as the &lt;a href=&#34;http://www.creativeglossary.com/art-mediums/left-side-of-the-brain-l-mode-characteristics.html&#34;&gt;L-mode&lt;/a&gt; &amp;ndash; in fact, it typically is drown out by L-mode &amp;lsquo;chatter&amp;rsquo; (e.g. the constant stream of though that pops into your head like &amp;lsquo;_I wonder what I should eat for lunch&amp;hellip;&lt;/em&gt;&amp;rsquo;).&lt;/p&gt;
+
+&lt;h2 id=&#34;intuition-and-the-expert:b96c280e7a3c99f5d16814825f459996&#34;&gt;Intuition and the Expert&lt;/h2&gt;
+
+&lt;p&gt;{% img left /images/intuition&lt;em&gt;head.jpg 250 250 %}
+Over the past couple of months I&amp;rsquo;ve read quite a few technology related articles that seem to &amp;ldquo;&lt;a href=&#34;http://www.thefreedictionary.com/dovetail&#34;&gt;dovetail&lt;/a&gt;&amp;rdquo; with the subject.  The book &lt;a href=&#34;http://en.wikipedia.org/wiki/Blink_(book)&#34;&gt;Blink: The Power of Thinking Without Thinking&lt;/a&gt; by &lt;a href=&#34;http://en.wikipedia.org/wiki/Malcolm_Gladwell&#34;&gt;Malcolm Gladwell&lt;/a&gt; points to increasing scientific evidence of the R-mode of the brain using what is termed &amp;lsquo;&lt;a href=&#34;http://en.wikipedia.org/wiki/Thin-slicing&#34;&gt;thin-slicing&lt;/a&gt;&amp;rsquo; of events to generate what we think of as &amp;lsquo;_intuition&lt;/em&gt;&amp;rsquo;. More often than not this intuition is correct &amp;ndash; but it can be fooled by biases that the brain has.
+{% img right /images/blink&lt;em&gt;book.jpg 180 360 %}
+Intuition is one of the main items that gives an expert his/her expertise. It lets the expert arrive at a correct solution faster than any of the other levels of the Dreyfus model. _This speed and correctness is exactly what is needed to compete in our global economy&lt;/em&gt;.&lt;br /&gt;
+We tend to discount intuition and the R-mode faculties because they can&amp;rsquo;t be quantified as easily as say, passing a calculus exam with flying colors.&lt;/p&gt;
+
+&lt;h2 id=&#34;rise-of-the-creative-economy:b96c280e7a3c99f5d16814825f459996&#34;&gt;Rise of the Creative Economy&lt;/h2&gt;
+
+&lt;p&gt;{% img left /images/creativemind_illustrated.png 224 274 %}
+A good part of &amp;lsquo;due diligence&amp;rsquo; for your career should be looking ahead to the horizon to see what is on it. One of the recurring themes I see in most publications is the future demand for &amp;lsquo;creatives&amp;rsquo; in most organizations. A &lt;a href=&#34;http://www.cato-unbound.org/2006/06/04/richard-florida/future-american-workforce-global-creative-economy&#34;&gt;recent article&lt;/a&gt; by the CATO institute points to the &amp;lsquo;creative economy&amp;rsquo; as the future of the american economy &amp;ndash; while &lt;a href=&#34;http://www.forbes.com/sites/elainepofeldt/2012/12/28/want-to-recession-proof-yourself-join-the-creative-class/&#34;&gt;another article&lt;/a&gt; by Forbes suggests joining the &amp;ldquo;&lt;a href=&#34;http://en.wikipedia.org/wiki/Creative_class&#34;&gt;creative class&lt;/a&gt;&amp;rdquo; as a way to recession proof yourself.&lt;/p&gt;
+
+&lt;p&gt;With all of the above in mind, how do we future-proof our careers in technology? I would start with reading &lt;a href=&#34;http://pragprog.com/book/ahptl/pragmatic-thinking-and-learning&#34;&gt;Pragmatic Thinking &amp;amp; Learning&lt;/a&gt;. While you are reading it, I would do three things:&lt;/p&gt;
+
+&lt;h3 id=&#34;1-determine-your-interests:b96c280e7a3c99f5d16814825f459996&#34;&gt;1) Determine your interests&lt;/h3&gt;
+
+&lt;p&gt;I believe you should align your career with what your interests are. Figure out what you like to do. This can turn a &amp;lsquo;job&amp;rsquo; that you work into a &amp;lsquo;career&amp;rsquo; that you enjoy. Think about it: &lt;a href=&#34;http://www.ask.com/question/what-percentage-of-our-lives-are-spent-working&#34;&gt;roughly one third of your life is spent working&lt;/a&gt; &amp;ndash; you might as well be doing something you enjoy.&lt;br /&gt;
+When you are doing something you like and are interested in, it makes learning easier as well. The &lt;a href=&#34;http://www.wired.com&#34;&gt;Wired magazine&lt;/a&gt; article &lt;a href=&#34;http://www.wired.com/business/2013/10/free-thinkers/&#34;&gt;&amp;ldquo;Free Thinkers&amp;rdquo;&lt;/a&gt; (by Joshua Davis) references new teaching methods which leverage that interest/curiosity in different subjects to accelerate learning.&lt;/p&gt;
+
+&lt;h3 id=&#34;2-practice-active-career-development:b96c280e7a3c99f5d16814825f459996&#34;&gt;2) Practice active career development&lt;/h3&gt;
+
+&lt;p&gt;In order to attain competent, proficient or expert skill in a particular area you must deliberately and actively learn in the area. This means taking charge of your own professional development.&lt;/p&gt;
+
+&lt;h4 id=&#34;if-you-are-a-programmer-technologist:b96c280e7a3c99f5d16814825f459996&#34;&gt;If you are a programmer/technologist:&lt;/h4&gt;
+
+&lt;p&gt;{% img right /images/ruby_users_meeting1.jpg 300 148 %}
+Don&amp;rsquo;t wait for the company that you work for to send you to training or ask you to investigate a particular technology &amp;ndash; go and learn it on your own.&lt;/p&gt;
+
+&lt;p&gt;With all of the demands of a busy life, this means &lt;strong&gt;you&lt;/strong&gt; are going to need to set time aside to learn the subject. If you don&amp;rsquo;t schedule it and abide by the schedule it probably won&amp;rsquo;t get done.&lt;/p&gt;
+
+&lt;p&gt;Here are some suggestions:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Read a new technology book (or two)&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Play around with a new framework or language&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Get involved in maintaining an &lt;a href=&#34;http://en.wikipedia.org/wiki/Open-source_software&#34;&gt;OSS&lt;/a&gt; project.&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Find the learning technique that works best for you. We have so many learning resources today (thanks in large part to the proliferation of Internet technologies). Here are a few:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://en.wikipedia.org/wiki/Massive_open_online_course&#34;&gt;MOOCs&lt;/a&gt; ( &lt;a href=&#34;http://www.edx.org/&#34;&gt;edX&lt;/a&gt;, &lt;a href=&#34;http://www.coursera.org&#34;&gt;Coursera&lt;/a&gt;, &lt;a href=&#34;http://www.udacity.com&#34;&gt;Udacity&lt;/a&gt;, et al. )&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;The &lt;a href=&#34;https://www.khanacademy.org/&#34;&gt;Khan Academy&lt;/a&gt; &amp;amp; &lt;a href=&#34;http://www.youtube.com/&#34;&gt;YouTube&lt;/a&gt; HowTo videos&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Technology related blogs &amp;amp; sites&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Tutorial &amp;amp; Learning Sites ( &lt;a href=&#34;http://www.pluralsight.com&#34;&gt;PluralSight&lt;/a&gt;, &lt;a href=&#34;http://www.codeschool.com&#34;&gt;CodeSchool&lt;/a&gt;, &lt;a href=&#34;http://www.codecademy.com/&#34;&gt;CodeAcademy&lt;/a&gt;, &lt;a href=&#34;http://teamtreehouse.com/&#34;&gt;TreeHouse&lt;/a&gt; et al. )&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;My personal favorite learning technique: &lt;strong&gt;get involved in a local user group&lt;/strong&gt;. Surround yourself with others who are actively learning: &lt;em&gt;Exchange ideas.&lt;/em&gt; &lt;em&gt;Network.&lt;/em&gt; Give a talk on a technology that you like! Nothing hammers a topic home better than having to teach it.&lt;/p&gt;
+
+&lt;p&gt;I highly recommend making your own &amp;ldquo;&lt;a href=&#34;http://nohack.eingenetzt.com/character-building/pragmatic-investment-plan/&#34;&gt;Pragmatic Investment Plan&lt;/a&gt;&amp;rdquo; to practice career development.&lt;/p&gt;
+
+&lt;h3 id=&#34;3-engage-your-creative-side:b96c280e7a3c99f5d16814825f459996&#34;&gt;3) Engage your creative side&lt;/h3&gt;
+
+&lt;p&gt;{% img left /images/sketching-the-branding-process.jpg 200 196 %}
+In order to use the R-mode thinking you need to work at engaging your creative side actively. &lt;em&gt;The R-mode can only be invited&amp;ndash;not compelled&amp;ndash;to work on a problem.&lt;/em&gt; The L-mode of your brain will drown out the R-mode in most cases. You must find ways to silence the L-mode chatter and allow the R-mode to &amp;ldquo;do it&amp;rsquo;s thing&amp;rdquo;&amp;trade;.&lt;/p&gt;
+
+&lt;p&gt;The ways to do this are too numerous to list in a blog post &amp;ndash; so here are just a few:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Draw a picture of the problem you are trying to solve. What visual metaphor is appropriate?&lt;/li&gt;
+&lt;li&gt;Describe problems verbally {% img right /images/meditation_pic.jpg 200 200 %}&lt;/li&gt;
+&lt;li&gt;Use &lt;a href=&#34;http://en.wikipedia.org/wiki/Mind_map&#34;&gt;mindmaps&lt;/a&gt; when brainstorming&lt;/li&gt;
+&lt;li&gt;Use a walk as a way to clear the L-mode &amp;lsquo;chatter&amp;rsquo;&lt;/li&gt;
+&lt;li&gt;Try acting out a process rather than diagramming it&lt;/li&gt;
+&lt;li&gt;Doodle in your idle time or during a phone call&lt;/li&gt;
+&lt;li&gt;Keep a dream log&lt;/li&gt;
+&lt;li&gt;Take up daily meditation&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;conclusion:b96c280e7a3c99f5d16814825f459996&#34;&gt;Conclusion&lt;/h2&gt;
+
+&lt;p&gt;Managing &lt;strong&gt;your&lt;/strong&gt; career is &lt;strong&gt;your&lt;/strong&gt; own responsibility. {% img left /images/footprints_sand.jpg 200 %} Take an active role in this portion of your life and never quit striving to learn more.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Become a better learner.&lt;/em&gt; &lt;em&gt;Start the journey to expert in a skill area.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Leave a comment and let me know how your journey is progressing!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>From WordPress to Octopress</title>
+      <link>http://localhost:1313/post/2013-06-02-from-wordpress-to-octopress/</link>
+      <pubDate>Sun, 02 Jun 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/post/2013-06-02-from-wordpress-to-octopress/</guid>
+      <description>
+
+&lt;p&gt;{% img right /images/wordpress_to_octopress.png 440 &amp;lsquo;Wordpress to Octopress&amp;rsquo; %}&lt;/p&gt;
+
+&lt;p&gt;You may or may not have noticed this blog has switched from a
+hosted &lt;a href=&#34;http://www.wordpress.org&#34;&gt;WordPress&lt;/a&gt; blog to a &lt;a href=&#34;http://octopress.org&#34;&gt;Octopress&lt;/a&gt; blog.
+I originally started looking at migrating the blog for a couple of
+reasons:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;I love ruby and I wanted to play around with &lt;a href=&#34;http://jekyllrb.com&#34;&gt;Jekyll&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Jekyll can be deployed easily to &lt;a href=&#34;http://pages.github.com&#34;&gt;GitHub Pages&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Github Pages is free (as in like free beer&amp;hellip;)&lt;/li&gt;
+&lt;li&gt;The amount of comment spam I am getting on WordPress was driving me
+crazy (yes I know I can use Akismet)&lt;/li&gt;
+&lt;li&gt;I wanted to customize my blog a little more than what is allowed
+with WordPress&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;!-- more --&gt;
+
+&lt;h2 id=&#34;the-initial-search:df86dc409d528fdc365321b82b0da9f6&#34;&gt;The initial search&lt;/h2&gt;
+
+&lt;p&gt;Initially I started looking at some of the blogging tools that my
+friends at the &lt;a href=&#34;http://757rb.org&#34;&gt;Hampton Roads Ruby Users Group&lt;/a&gt; where using.
+The first one I came across that caught my interest was &lt;a href=&#34;http://github.com/metaskills&#34;&gt;Ken Collins&amp;rsquo;&lt;/a&gt; blog: &lt;a href=&#34;http://metaskills.net&#34;&gt;metaskills.net&lt;/a&gt;.
+The metaskills blog uses a modified version of Jekyll which Ken has added in a few items to organize and publish easier.
+You can check out his code &lt;a href=&#34;https://github.com/metaskills/metaskills.net&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&#34;first-draft-jekyll:df86dc409d528fdc365321b82b0da9f6&#34;&gt;First draft: Jekyll&lt;/h3&gt;
+
+&lt;p&gt;{% img right /images/octojekyll.png 200 &amp;lsquo;OctoJekyll&amp;rsquo; %}
+I started out creating a plain Jekyll blog and looking at how the static
+site generation worked.
+There are plenty of resources on the &lt;a href=&#34;http://jekyllrb.com&#34;&gt;Jekyll site&lt;/a&gt; which can show you how to install Jekyll and get it running.
+You will need &lt;a href=&#34;http://www.ruby-lang.org&#34;&gt;Ruby&lt;/a&gt; and
+&lt;a href=&#34;http://www.rubygems.org&#34;&gt;RubyGems&lt;/a&gt;.
+If you are dabbling in Ruby or Rails, you will already have both of them.&lt;/p&gt;
+
+&lt;h3 id=&#34;second-draft-jekyll-bootstrap:df86dc409d528fdc365321b82b0da9f6&#34;&gt;Second draft: Jekyll Bootstrap&lt;/h3&gt;
+
+&lt;p&gt;{% img left /images/Jekyll-bootstrap-screen.png 300 &amp;lsquo;Jekyll Bootstrap Getting Started screen&amp;rsquo; %}
+While I found Jekyll pretty cool, I wanted my site to have a little bit
+of styling.
+Not being a graphic designer of any sort, I started looking for some
+themes that I could use to modify.
+After doing a little digging on Google for Jekyll themes, I found &lt;a href=&#34;http://jekyllbootstrap.com&#34;&gt;Jekyll Bootstrap&lt;/a&gt; by
+X. Note: There is also another spin off from this project called
+&lt;a href=&#34;http://ruhoh.com&#34;&gt;Ruhoh&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&#34;final-draft-octopress:df86dc409d528fdc365321b82b0da9f6&#34;&gt;Final draft: Octopress&lt;/h3&gt;
+
+&lt;p&gt;{% img right /images/octopress-logo.png 200 &amp;lsquo;Octopress Logo&amp;rsquo; %}
+I am not sure why I never noticed or found it sooner (as I am sure I
+have heard of Octopress before!) &amp;ndash; but I finally stumbled across the
+&lt;a href=&#34;http://octopress.org&#34;&gt;Octopress site&lt;/a&gt;. Octopress is a framework
+designed by &lt;a href=&#34;http://brandonmathis.com&#34;&gt;Brandon Mathis&lt;/a&gt; for Jekyll.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;I had finally found the toolset I was looking for!&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Octopress had plenty of themes, still stuck to Jekyll as the method of generating static
+sites &amp;ndash; and had plugins which smoothed over some of the &amp;lsquo;warts&amp;rsquo; of
+Jekyll out of the box.&lt;/p&gt;
+
+&lt;p&gt;Here is some of the static blog-generating goodness (i.e. integrations) you will find in
+Octopress:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Github&lt;/li&gt;
+&lt;li&gt;Google+&lt;/li&gt;
+&lt;li&gt;Twitter&lt;/li&gt;
+&lt;li&gt;Disqus&lt;/li&gt;
+&lt;li&gt;Google Analytics&lt;/li&gt;
+&lt;li&gt;Pinboard&lt;/li&gt;
+&lt;li&gt;Delicious&lt;/li&gt;
+&lt;li&gt;Facebook likes&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The configuration file in a &amp;lsquo;stock&amp;rsquo; Octopress install is a nice YAML
+layout. Here is a snippet:&lt;/p&gt;
+
+&lt;p&gt;``` yaml _config.yml&lt;/p&gt;
+
+&lt;h1 id=&#34;toc_4:df86dc409d528fdc365321b82b0da9f6&#34;&gt;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;ndash;&lt;/h1&gt;
+
+&lt;h1 id=&#34;main-configs:df86dc409d528fdc365321b82b0da9f6&#34;&gt;Main Configs&lt;/h1&gt;
+
+&lt;h1 id=&#34;toc_6:df86dc409d528fdc365321b82b0da9f6&#34;&gt;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;ndash;&lt;/h1&gt;
+
+&lt;p&gt;url: &lt;a href=&#34;http://yourblogurl.com&#34;&gt;http://yourblogurl.com&lt;/a&gt;
+title: Your Blog Name
+subtitle: Some catchy subtitle..
+author: Your Name Here
+simple_search: &lt;a href=&#34;http://google.com/search&#34;&gt;http://google.com/search&lt;/a&gt;
+description: This will show in the META tags
+```&lt;/p&gt;
+
+&lt;p&gt;Making changes is as easy as changing the appropriate key/value
+pair and then from the terminal, run: &lt;code&gt;rake preview&lt;/code&gt; to view it on &lt;a href=&#34;http://localhost:4000&#34;&gt;http://localhost:4000&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Deploying the site is just as easy:
+&lt;code&gt;bash
+rake generate   #generate the static site content
+rake deploy     #deploy the site to your deploy location (i.e. github)
+&lt;/code&gt;
+You can even abbreviate deployment to: &lt;code&gt;rake gen_deploy&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Octopress also has plenty of themes as a starting point for customizing your own blog.
+The github repo &lt;a href=&#34;https://github.com/imathis/octopress/wiki/3rd-Party-Octopress-Themes&#34;&gt;here&lt;/a&gt; is a good starting point for 3rd party Octopress themes.&lt;/p&gt;
+
+&lt;p&gt;I am now (&lt;em&gt;for the time being&lt;/em&gt;) sold on Octopress and will be using it for
+my posts going forward. If you are in the market for a new static
+blogging platform, give it a try &amp;ndash; I think you will be pleasantly
+surprised.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Batteries Included</title>
+      <link>http://localhost:1313/post/2013-04-05-batteries-included/</link>
+      <pubDate>Fri, 05 Apr 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/post/2013-04-05-batteries-included/</guid>
+      <description>&lt;p&gt;I usually use a desktop PC and my Macbook Air on a daily basis during the week. In going back and forth between Windows and Mac OS X, I have noticed a couple of things that have hammered home the point that hardware is not the only thing Apple does well &amp;ndash; software is too.
+&amp;lt;!&amp;ndash; more &amp;ndash;&amp;gt;
+{% img left /images/password_protect_files_snowleopard.jpg 350 Save as PDF on Mac %}
+The first thing that occurred to me is Mac OS X has had the ability to print and edit PDF files at least since Mac OS X Leopard. With Windows, I need to download some type of PDF print driver and an Adobe viewer. Mac OS X has preview (which works for both images and PDF files), which will let me view and do some light editing on a PDF file as wells annotate.&lt;/p&gt;
+
+&lt;p&gt;{% img right /images/notification-center.jpg Mac OS Notification Center %}
+The second thing I noticed was Mac OS X Lions notifications center provides not only a nice area to see your email and app notifications, but also an easy way to post to Twitter and Facebook. Growl notification is baked in as well &amp;ndash; I have to download a growl client for windows (and the app has to use Growl).&lt;/p&gt;
+
+&lt;p&gt;I am not quite sure why Windows doesn&amp;rsquo;t have &amp;ldquo;batteries included&amp;rdquo; when it comes to PDF files, but it is just a nice feature that Apple has added into Mac OS X. Don&amp;rsquo;t get me wrong: I have used Windows for a long time &amp;ndash; and I was a Windows user before I used a Mac. Windows gets a lot of things right and I will continue to use Windows as well &amp;ndash; but Apple seems to be getting very good at sanding down the &amp;ldquo;friction points&amp;rdquo; you encounter with software to make for an easier, elegant user experience.&lt;/p&gt;
+
+&lt;p&gt;Sometimes its just nice for things to work as you intend them to and to serendipitously find some functionality that is often overlooked&amp;hellip;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Raspberry Pi...Finally!</title>
+      <link>http://localhost:1313/post/2013-01-14-raspberry-pi-finally/</link>
+      <pubDate>Mon, 14 Jan 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/post/2013-01-14-raspberry-pi-finally/</guid>
+      <description>
+
+&lt;p&gt;{% img right /images/IMG_1420.jpg 244 184 Pi size comparison %}
+Christmas really did come early last year: I finally received my &lt;a href=&#34;http://www.raspberrypi.org/&#34;&gt;Raspberry Pi&lt;/a&gt; model B direct from the UK!  The Raspberry Pi has been so popular that there has been quite a few delays in production and delivery of these tasty little computers &amp;ndash; and at $25 a piece they are economical and tasty!
+&amp;lt;!&amp;ndash; more &amp;ndash;&amp;gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;the-un-boxing:d4e6af75229db2b82eaf4a930f655e61&#34;&gt;The Un-Boxing&lt;/h2&gt;
+
+&lt;p&gt;{% img left /images/IMG_1413.jpg 244 184 Unpacking the Pi %}
+I ordered my Raspberry Pi from &lt;a href=&#34;http://uk.rs-online.com/&#34;&gt;RS Online&lt;/a&gt; around August and received it the week of November 26th (2012). The demand for these little computers has been tremendous and there are only a few authorized direct vendors in the UK (you can visit the &lt;a href=&#34;http://www.raspberrypi.org/&#34;&gt;Raspberry Pi site&lt;/a&gt; to find the vendors).&lt;/p&gt;
+
+&lt;p&gt;My entire order consisted of the following:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Raspberry Pi model B&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;RS Electronics protective case&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;4 GB SD Card Pre-loaded with &lt;a href=&#34;http://www.raspbian.org/&#34;&gt;Raspbian&lt;/a&gt; (&lt;a href=&#34;http://www.debian.org/&#34;&gt;Debian&lt;/a&gt; &amp;ldquo;Wheezy&amp;rdquo; based Linux)&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://en.wikipedia.org/wiki/RCA_connector&#34;&gt;RCA Stereo cables&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;{% img right /images/IMG_1496.jpg 244 184 Arduino and Pi %}&lt;/p&gt;
+
+&lt;p&gt;What I initially noticed when I opened the packaging to my new toy was the size of the Raspberry Pi. I have an &lt;a href=&#34;http://www.arduino.cc/&#34;&gt;Arduino&lt;/a&gt; Uno and the Raspberry is nearly as small as the Uno.  After unboxing and taking pictures of all of the pieces, I worked on getting the Raspberry Pi into the protective case made by RS. This required a small amount of ‘gingerly’ trying to push the Raspberry Pi into place without breaking it or the case, but after a few minutes I figured out the easiest way to get it into and out of the case.&lt;/p&gt;
+
+&lt;h2 id=&#34;initial-setup:d4e6af75229db2b82eaf4a930f655e61&#34;&gt;Initial Setup&lt;/h2&gt;
+
+&lt;p&gt;{% img left /images/IMG_1438.jpg 244 184 Keyboard and mouse %}&lt;/p&gt;
+
+&lt;p&gt;To connect the Raspberry Pi, you will need a USB keyboard, mouse, a Type B USB Plug (the size that most printers use), A &lt;a href=&#34;https://www.sparkfun.com/products/11456&#34;&gt;USB AC Wall Adapter/Charger&lt;/a&gt; and either an &lt;a href=&#34;http://en.wikipedia.org/wiki/HDMI&#34;&gt;HDMI&lt;/a&gt; connector or &lt;a href=&#34;http://en.wikipedia.org/wiki/RCA_connector&#34;&gt;RCA&lt;/a&gt; cable.
+If you want sound you might want to get a &lt;a href=&#34;http://en.wikipedia.org/wiki/Stereo_jack&#34;&gt;stereo&lt;/a&gt; to &lt;a href=&#34;http://en.wikipedia.org/wiki/RCA_connector&#34;&gt;RCA&lt;/a&gt; jack adaptor.&lt;/p&gt;
+
+&lt;p&gt;I started with plugging in the keyboard and most first, as it did not require power.&lt;/p&gt;
+
+&lt;p&gt;My next activity was to plug the Pi into my TV via the RCA jack.&lt;/p&gt;
+
+&lt;p&gt;{% img right /images/IMG_1426.jpg 244 184 Hardcase and memory card %}
+Always remember this with the RCA jacks: Yellow jacks are typically video, and your Red and White jacks are for left and right audio (stereo). On the Raspberry Pi, the video RCA jack is the same size on both ends, but the audio RCA is two regular size jacks which pair down into a small MP3 headphone size jack that plugs into the Pi.
+You can see the RCA video plug in the pic below and the RCA audio plug is the small black plug next to it.
+To start the Pi up, I plugged the USB charger into the wall and the USB Type B connector into the back of the Raspberry Pi.&lt;/p&gt;
+
+&lt;p&gt;The Raspbian menu lets you initially configure a lot of items which you will be potentially searching for after the setup &amp;ndash; such as making it boot directly into X windows.
+If you have kids using it, making it boot into X windows is a &lt;strong&gt;MUST&lt;/strong&gt;.  &lt;strong&gt;Note:&lt;/strong&gt; Once you set your defaults from the first boot up, you will not see the configuration page again (I would have a pic of this had I known!).
+&lt;em&gt;You will have to ‘role up the sleeves’ and configure some Unix/Linux configuration files to make any changes after the initial setup.&lt;/em&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;boot-up:d4e6af75229db2b82eaf4a930f655e61&#34;&gt;Boot Up&lt;/h2&gt;
+
+&lt;p&gt;The pic you can see below is the first boot up.&lt;/p&gt;
+
+&lt;p&gt;{% img left /images/IMG_1435.jpg 244 184 First boot up %}
+The boot up screen shows some typical Linux boot-up kernel ring buffer messages.
+The Raspberry Pi&amp;rsquo;s boot up was rather speedy and took only a few seconds
+- the benefit of booting off of a flash drive.
+The Raspberry Pi is capable of detecting on boot whether you have the RCA jack plugged in or the HDMI cable plugged in.
+I recommend HDMI if you have a flat screen as it seems to be abled to handle the screen resolutions better than the RCA jack. &amp;nbsp;&lt;/p&gt;
+
+&lt;h2 id=&#34;pi-desktop:d4e6af75229db2b82eaf4a930f655e61&#34;&gt;Pi Desktop&lt;/h2&gt;
+
+&lt;p&gt;{%img right /images/IMG_1462.jpg 244 184 Raspberry Pi desktop %}&lt;/p&gt;
+
+&lt;p&gt;The Raspberry Pi logo is prominent on a rather clean desktop look. All of the main items such as the &lt;a href=&#34;http://docs.python.org/2/library/idle.html&#34;&gt;IDLE&lt;/a&gt;, &lt;a href=&#34;http://scratch.mit.edu/&#34;&gt;Scratch&lt;/a&gt; and Python Games.&lt;/p&gt;
+
+&lt;p&gt;My sons enjoyed playing the “&lt;a href=&#34;http://pygame.org/project-Squirrel+Eat+Squirrel-1853-3764.html&#34;&gt;Squirrel Game&lt;/a&gt;” which consists of trying to eat smaller squirrels to make your squirrel bigger.
+They kept at it until they won the game.&lt;br /&gt;
+My older son also played with scratch quite a bit – but it kept locking up, which I believe might be due to the under-powered &lt;a href=&#34;http://en.wikipedia.org/wiki/Universal_Serial_Bus&#34;&gt;USB&lt;/a&gt; hub I was using.
+{% img left /images/IMG_1464.jpg 244 184 The Squirrel Game %}
+You really have to make sure you have a powered one, as the Pi can only supply so much power for the &lt;a href=&#34;http://en.wikipedia.org/wiki/Universal_Serial_Bus&#34;&gt;2 USB ports&lt;/a&gt; that it has.
+Once you have a keyboard and mouse plugged in there is not much room for more.
+I used a USB hub to give me a little more ‘reach’ with my keyboard and mouse, so they didn’t have to be directly in front of the TV.
+The moral here: Make sure you have enough power for the USB bus – a steady 5 volts DC. Also: You will want a decent USB hub if you want to use more than the 2 USB Type A Plugs that are on the front of the Raspberry Pi.&lt;/p&gt;
+
+&lt;h2 id=&#34;game-over:d4e6af75229db2b82eaf4a930f655e61&#34;&gt;Game Over&lt;/h2&gt;
+
+&lt;p&gt;{% img center /images/IMG_1445.jpg 244 184 Game Over %}
+So, it is ‘Game Over’ for this post on the Raspberry Pi. I will continue to tinker with it and hopefully have some more items to report.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Refining your tech talk</title>
+      <link>http://localhost:1313/post/2013-01-10-refining-your-tech-talk/</link>
+      <pubDate>Thu, 10 Jan 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/post/2013-01-10-refining-your-tech-talk/</guid>
+      <description>
+
+&lt;h2 id=&#34;shaking-off-the-rust:0b079ec9875d52687a2f6c6364aa59cd&#34;&gt;Shaking off the rust&lt;/h2&gt;
+
+&lt;p&gt;{% img left /images/hanselman.jpg Scott Hanselman %}
+Last night I did the first tech talk (&lt;a href=&#34;http://www.rabbitmq.com/&#34;&gt;RabbitMQ&lt;/a&gt; and &lt;a href=&#34;http://easynetq.com/&#34;&gt;EasyNetQ&lt;/a&gt;) that I have done in at least a one or two years at the &lt;a href=&#34;http://www.hrnug.org/&#34;&gt;Hampton Roads .NET Users Group (HRNUG)&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;I try to have respect for my audience when giving these talks and work
+provide them with something that is entertaining as well as
+educational. I wouldn’t want my time wasted with a bad presentation – so I don’t want to waste the audience’s time either! In giving my talks, I strive to emulate the great tech speakers and educators like &lt;a href=&#34;http://www.hanselman.com/blog/&#34;&gt;Scott Hanselman&lt;/a&gt; and &lt;a href=&#34;http://www.8thlight.com/our-team/robert-martin&#34;&gt;‘Uncle Bob’ Martin&lt;/a&gt;.
+&amp;lt;!&amp;ndash; more &amp;ndash;&amp;gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://wekeroad.com/&#34;&gt;Rob Connery&lt;/a&gt; does a great interview of Scott Hanselman in his Full Throttle series on Tekpub on &lt;a href=&#34;http://tekpub.com/productions/ft_speaker&#34;&gt;how Scott prepares for a tech talk&lt;/a&gt;. If you are serious about giving tech talks, I highly recommend you look at it.&lt;/p&gt;
+
+&lt;h2 id=&#34;what-i-learned:0b079ec9875d52687a2f6c6364aa59cd&#34;&gt;What I learned&lt;/h2&gt;
+
+&lt;p&gt;Tech talks can through you some curve-balls that; if you are willing to pay attention, can provide some teachable moments that you can use to refine future tech talks. I found my teachable moments in a couple of areas while giving the presentation:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Make sure to use your phone or watch as a timer – to help you keep the ‘pace’ through your tech talk. Setting it to the max talk time and having it count down will work – or have a half way point set and check to see where you are in the total presentation I was allotted 60 – 75 minutes, but my talk came in at around 45 minutes because I though I was running out of time. These extra minutes could have been used to dive deeper into my code examples!&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;If you haven’t been playing with PowerPoint lately, &lt;a href=&#34;http://presentationsoft.about.com/od/powerpoint101/ss/shortcuts.htm&#34;&gt;brush up on the start (F5) / restart (SHIFT-F5) keystrokes&lt;/a&gt;. When you are in the middle of a presentation, it can disrupt the flow of the talk when you have to forward to the last slide you where one. I rehearsed my talk, except I didn’t rehearse switching into my demos. While F5 will start a slideshow in Power Point, it always starts at the beginning. In the middle of the talk, I couldn’t remember what the restart keystroke was, so I had to forward from the beginning slide each time I stopped for a demo. This can be a little choppy for the viewers.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;If you use any other tools, such as &lt;a href=&#34;http://technet.microsoft.com/en-us/sysinternals/bb897434.aspx&#34;&gt;ZoomIt&lt;/a&gt; – make sure you set their key mappings to what you want them to be and make sure you practice using it in your talk rehearsal.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Fortunately I get a do-over next month with the &lt;a href=&#34;http://757rb.org/&#34;&gt;757 Ruby Users Group&lt;/a&gt;. I have some tweaking to do to the presentation in order to tailor it for a slightly different audience, but the changes are really just the demos and substituting the &lt;a href=&#34;https://github.com/ruby-amqp/amqp&#34;&gt;amqp gem&lt;/a&gt; for EasyNetQ. But my lessons learned on the presentation flow will definitely be incorporated.&lt;/p&gt;
+
+&lt;p&gt;{% img center /images/unclebob.jpg Uncle Bob Martin %}&lt;/p&gt;
+
+&lt;p&gt;I am sure there will be many more of these teachable moments in the future…&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Global day of Coderetreat</title>
+      <link>http://localhost:1313/post/2012-12-09-global-day-of-coderetreat/</link>
+      <pubDate>Sun, 09 Dec 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/post/2012-12-09-global-day-of-coderetreat/</guid>
+      <description>
+
+&lt;p&gt;Yesterday I participated in my first
+&lt;a href=&#34;http://coderetreat.org&#34;&gt;coderetreat&lt;/a&gt; at &lt;a href=&#34;http://www.757creativespace.com&#34;&gt;757 Creative Space&lt;/a&gt; in Norfolk, VA.
+ This happened to be the &lt;a href=&#34;http://globalday.coderetreat.org/&#34;&gt;Global day of Coderetreat&lt;/a&gt; (which was organized by coderetreat.org) and now I am wondering why I didn’t go to a coderetreat sooner.
+The coderetreat was facilitated by &lt;a href=&#34;http://myfakeif.blogspot.com/&#34;&gt;Ryan
+Castillo&lt;/a&gt; from the &lt;a href=&#34;http://757rb.org&#34;&gt;757Ruby users group&lt;/a&gt; and sponsored by some great companies: &lt;a href=&#34;http://www.bootstraphero.com&#34;&gt;Bootstrap
+Hero&lt;/a&gt; and &lt;a href=&#34;http://www.xtuple.com/&#34;&gt;xTuple&lt;/a&gt; sponsored all of the good eats (which are essential to keep the code flowing!) and there were quite a few other great sponsors as well.
+&amp;lt;!&amp;ndash; more &amp;ndash;&amp;gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;what-is-a-code-retreat:e5427fa611f5a49cf659ce5cae569ae1&#34;&gt;What is a code retreat?&lt;/h2&gt;
+
+&lt;p&gt;{% img left /images/IMG_1509.jpg 184 244 %}
+If you haven’t been to a coderetreat – it basically a day of honing your software development skills to become a better developer.
+If you are serious about your profession as a software developer – these
+types of training opportunities are ones you should attend. In our day’s
+retreat, we focused on the skills of
+&lt;a href=&#34;http://en.wikipedia.org/wiki/Test-driven_development&#34;&gt;TDD&lt;/a&gt; and
+&lt;a href=&#34;http://www.extremeprogramming.org/rules/pair.html&#34;&gt;Pair Programming&lt;/a&gt;.
+Both of these techniques are part of &lt;a href=&#34;http://www.extremeprogramming.org/index.html&#34;&gt;Extreme Programming&lt;/a&gt;.
+The idea for coderetreat was spawned at the January, 2009, Codemash
+Conference by Gary Bernhardt, Patrick Welsh, Nayan Hajratwala and Corey
+Haines.&lt;/p&gt;
+
+&lt;h2 id=&#34;the-day-s-activities:e5427fa611f5a49cf659ce5cae569ae1&#34;&gt;The day&amp;rsquo;s activities&lt;/h2&gt;
+
+&lt;p&gt;{% img right /images/IMG_1510.jpg 244 184 %}
+The only project used for the day is to code a version of &lt;a href=&#34;http://en.wikipedia.org/wiki/Conway%27s_game_of_life&#34;&gt;Conway&amp;rsquo;s Game
+of Life&lt;/a&gt;.
+Now, I knew a little about the Game of Life and that it was typically central to a coderetreat, but I purposefully did not look up any info on coding it, because I didn’t want it to take away from the discovery experience.
+Programmers are typically paired for 45 minutes and each pair has to delete all code and destroy all notes at the end of their iteration.&lt;/p&gt;
+
+&lt;p&gt;Ryan did a great job of getting everyone introduced and oriented. Once we had all of the intros under our belt, we paired up and started on our first iteration of the Game of Life.&lt;/p&gt;
+
+&lt;h3 id=&#34;along-came-the-curve-balls:e5427fa611f5a49cf659ce5cae569ae1&#34;&gt;Along came the curve-balls&lt;/h3&gt;
+
+&lt;p&gt;Then came the curve-balls: requirements changing during the iterations, ping-pong coding (switching the person typing and observing between writing functions), blind coding (the 2 programmers couldn’t talk, and one wrote the tests – the other the code to pass the test) and timed coding from test to implementation.
+{% img left /images/IMG_1512.jpg 244 184 %}&lt;/p&gt;
+
+&lt;p&gt;Each of these “curve-balls” built on the other and exposed some of the typical flaws in the way most people write software as well as the things that can be done to fix it.
+After each 45 minute iteration we held a sort of “after action review” to see what each person had learned from the iteration.
+These iterations brought out the importance of writing clear function/method/variable names, writing your tests first, and doing the simplest thing possible to pass the test, then moving to the next item.
+It is amazing to see how quickly this technique of TDD can flush out an excellent design for any software project.&lt;/p&gt;
+
+&lt;h3 id=&#34;the-retrospective:e5427fa611f5a49cf659ce5cae569ae1&#34;&gt;The retrospective&lt;/h3&gt;
+
+&lt;p&gt;The day ended in a wrap-up review of all of the items during the day from iteration – to see what we had learned, what were surprised by, and what we would change.
+Everyone seemed to have picked up something constructive from the experience – so the coderetreat was in my opinion a big success.&lt;/p&gt;
+
+&lt;p&gt;Ryan was a great facilitator for the event – he nudged us into seeing the ‘teachable moments’ during the iterations.
+Meeting all of the great developers there was also a great part of the experience.
+We had programmers coding in Java, C#, Ruby, Python, JavaScript, and even Objective-C. Everyone was willing to work with others, even in languages they were not quite familiar with.
+ We even had a pair of developers that came down from Richmond to attend the event.&lt;/p&gt;
+
+&lt;p&gt;I look forward to the next coderetreat!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Fixing for missing iPhone in iTunes with Windows 8</title>
+      <link>http://localhost:1313/post/2012-11-21-fixing-for-missing-iphone-in-itunes-with-windows-8/</link>
+      <pubDate>Wed, 21 Nov 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/post/2012-11-21-fixing-for-missing-iphone-in-itunes-with-windows-8/</guid>
+      <description>&lt;p&gt;{% img left /images/Fake_Windows_8_Start.png 300 Windows 8 Desktop %}
+After I installed Windows 8 on my laptop (I upgraded from Windows 7), the only annoyance I found was iTunes would not recognize my iPhone 4S anymore &amp;ndash; even when plugged in via USB. As you can imagine, this makes syncing the phone a little bit of a problem (Wifi was not working either).
+&amp;lt;!&amp;ndash; more &amp;ndash;&amp;gt;
+I finally found a fix for it after doing a little &amp;lsquo;digging&amp;rsquo; via Google.&lt;/p&gt;
+
+&lt;p&gt;The main fix (for me) can be found &lt;a href=&#34;http://support.apple.com/kb/TS1538&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;{% img right /images/itunes_logo.jpg 150 iTunes Logo %}
+I ended up following section #5 in the link &amp;ndash; which is &amp;ldquo;Verify that the Apple Mobile Device USB Driver is installed&amp;rdquo;.
+I found Apple iPhone under the Device manager&amp;rsquo;s photo devices and updated the driver using the directions in the knowledge base article.&lt;/p&gt;
+
+&lt;p&gt;Now: POOF! It works&amp;hellip;Christmas came early.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Installing updates 4 of 6</title>
+      <link>http://localhost:1313/post/2012-11-19-installing-updates-4-of-6/</link>
+      <pubDate>Mon, 19 Nov 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/post/2012-11-19-installing-updates-4-of-6/</guid>
+      <description>&lt;p&gt;{% img right /images/please_wait.jpg 325 &amp;lsquo;Installing updates 4 of 6&amp;rsquo; &amp;lsquo;Installing updates 4 of 6&amp;rsquo; %}
+OK: I like Windows 8 so far. I think it is a pretty good OS. My only gripe with it so far is that lately it has been stalling on the updates. The screen will say something to the effect of &amp;ldquo;Do not power down&amp;rdquo; and &amp;ldquo;Installing update 4 of 6&amp;rdquo;. It will do this for several hours&amp;hellip;with occasional hard disk activity. Eventually I have to pull the battery on my laptop to restart it. I am thinking: Really??&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>DIY</title>
+      <link>http://localhost:1313/post/2012-11-18-diy/</link>
+      <pubDate>Sun, 18 Nov 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/post/2012-11-18-diy/</guid>
+      <description>&lt;p&gt;Well today was a productive day: I changed the rear brake pads and rotors for my car today.&lt;/p&gt;
+
+&lt;p&gt;{% img left /images/car_repair_8bit.jpg 325 %}
+Yes, I know this is not as great an automotive accomplishment as rebuilding an engine. However, I find something innately satisfying with getting your hands dirty and figuring out how to do something you normally don&amp;rsquo;t do. I have always enjoyed figuring out how to fix things and perhaps that is what drew me into computers and software.
+&amp;lt;!&amp;ndash; more &amp;ndash;&amp;gt;
+I believe we have a lot of technology (cars being one of them) that most of us use and take for granted. When this technology needs to be maintained/repaired many of us lack the knowledge to do so. My personal goal to counter this lack of &amp;lsquo;automotive know-how&amp;rsquo; is to fix whatever can on my car, whenever I can &amp;ndash; and hopefully save money in the process.&lt;/p&gt;
+
+&lt;p&gt;Here are some of the resources I have found helpful:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.oreillyauto.com/&#34;&gt;O&amp;rsquo;Reilly auto parts&lt;/a&gt; - my favorite auto parts store.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.haynes.com/mole-video&#34;&gt;Haynes Manuals Online&lt;/a&gt; - a must have for DIY auto repair.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Consolidating my calendars</title>
+      <link>http://localhost:1313/post/2013-05-22-consolidating-my-calendars/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/post/2013-05-22-consolidating-my-calendars/</guid>
+      <description>&lt;p&gt;With at least 3 locations that my calendar events are in (Google
+Calendar, MS Outlook, and Mac Calendar/iCloud) I am looking to
+consolidate my calendars.&lt;/p&gt;
+
+&lt;p&gt;Right now with I have a couple of different calendars on these calendar
+applications - my personal calendar, work calendar, etc. etc.
+This causes the problem of duplicate events on the calendars.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
