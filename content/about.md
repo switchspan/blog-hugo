@@ -1,7 +1,8 @@
 +++
-date = "2015-09-29T13:05:28-04:00"
-draft = true
-title = "about"
+date = "2015-09-29T23:35:10-04:00"
+draft = false
+title = "About"
+menu = "main"
 +++
 ## About Ken Taylor
 
@@ -25,5 +26,3 @@ You can get in touch at:
 * Twitter: [taylorka](http://twitter.com/taylorka)
 * Google Plus: [111453594076862569077](http://plus.google.com/111453594076862569077)
 * Github: [switchspan](http://github.com/switchspan)
-
-

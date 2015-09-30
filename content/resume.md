@@ -1,10 +1,9 @@
 +++
-date = "2015-09-29T14:01:02-04:00"
-draft = true
-title = "resume"
-
+date = "2015-09-29T23:35:16-04:00"
+draft = false
+title = "Resume"
+menu = "main"
 +++
-
 #### Values
 
 * Passionate about Software Craftsmanship
@@ -26,4 +25,4 @@ I like to teach and learn with other passionate developers. I currently attend a
 
 #### Skills Cloud
 
-C# .NET WebAPI ServiceStack MongoDB RabbitMQ Ruby SQL Server JavaScript OOP Ruby on Rails CSS Web Development jQuery Web Services Software Development C C++ Databases Web Applications UI Design HTML5 WIndows Mac OS X Unix Software Engineering Objective-C Git Subversion Jasmine CoffeeScript TDD BDD.
+C# .NET WebAPI ServiceStack MongoDB RabbitMQ Ruby SQL Server JavaScript OOP Ruby on Rails CSS Web Development jQuery Web Services Software Development C C++ Databases Web Applications UI Design HTML5 WIndows Mac OS X Unix Software Engineering Objective-C Git Subversion Jasmine CoffeeScript TDD BDD.
