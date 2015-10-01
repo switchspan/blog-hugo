@@ -1,6 +1,5 @@
 +++
 date = "2012-11-19"
-draft = true
 title = "Installing updates 4 of 6"
 description ="Waiting and waiting and waiting on Windows 8"
 categories = [

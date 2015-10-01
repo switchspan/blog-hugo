@@ -1,38 +1,19 @@
+theme="material-design"
 baseurl = "http://switchspan.com/"
 languageCode = "en-us"
-title = "Switchspan - Ken Taylor's Blog"
-theme = "steam"
-disqusShortname = "spf13"
-paginate = 10
+title = "Switchspan"
+MetaDataFormat = "toml"
+paginate = 9 # To specify a multiple of 3
+disqusShortname = "ken_taylor"
+copyright = "© 2015 Copyright Ken Taylor"
 
 [params]
-
-	title = "Switchspan"
-	subtitle = "Hindsight is an exact science..."
-	copyright = "Released under the MIT license."
-
-	# You can choose between green, orange, red and blue.
-	themeColor = "blue"
-	# Enable Google Analytics be inserting your tracking code
-	googleAnalytics = "UA-41419813-1"
-
-	# To provide some metadata for search engines and the about section in the footer
-	# feel free to add a few information about you and your website.
-	name = "Ken Taylor"
-	bio = "I'm just a theme. That's it. If you like my design clone [me](//github.com/digitalcraftsman/hugo-steam-theme) from Github. Thanks."
-	description = "Ken Taylor's blog"
-	location = "Virginia Beach, VA" # optional
-	twitter = "taylorka" # optional
-	github = "switchspan" # optional
-
-	# Enable a comment system
-	# You can choose between Disqus or Google Plus by setting comments
-	# to disqus or googleplus. For using Disqus you need to enter your
-	# shortname in disqusShortname at the top of the configs. 
-	comments = "disqus"
-
-	# Customize or translate the strings
-	keepReadingStr = "Keep reading"
-	backtotopStr = "Back to top"
-	shareStr = "Share"
-	pageNotFoundTitle = "404 - Page not found"
+  description = "Hindsight is an exact science..." # optional
+  twitter = "taylorka" # optional
+  github = "switchspan" # optional
+  facebook = "taylor.kenneth" # optional
+  gplus = "KenTaylorz" # optional
+  linkedin = "kentaylorlinked" # optional
+  #headerCover = "images/headerCover.png" # optional
+  #footerCover = "images/footerCover.png" # optional
+  googleAnalyticsUserID = "UA-41419813-1" # optional
