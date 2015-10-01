@@ -6,7 +6,7 @@
 # Folders
 _obj
 _test
-public/*
+public
 
 # Architecture specific extensions/prefixes
 *.[568vq]
@@ -24,5 +24,6 @@ _testmain.go
 *.test
 *.prof
 
-# OS files
-.DS_Store
+# SublimeText project files
+*.sublime-project
+*.sublime-workspace
