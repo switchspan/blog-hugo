@@ -1,7 +1,7 @@
 +++
 date = "2012-11-18"
-title = "diy"
-description = "DIY can be a good experience."
+title = "DIY"
+description = "DIY can be a good experience"
 tags = [ "automobile", "mechanic" ]
 categories = [
   "miscellaneous"
