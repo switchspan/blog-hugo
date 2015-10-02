@@ -6,11 +6,16 @@ tags = [ "automobile", "mechanic" ]
 categories = [
   "miscellaneous"
 ]
+slug = "diy"
+image = ""
+comments = true	# set false to hide Disqus
+share = true		# set false to hide share buttons
+author = "Ken Taylor"
 +++
 
 Well today was a productive day: I changed the rear brake pads and rotors for my car today.
 
-{{% image class="right" src="/images/car_repair_8bit.jpg" width="325" %}}
+{{% image class="right" src="/images/car_repair_8bit.jpg" %}}
 
 Yes, I know this is not as great an automotive accomplishment as rebuilding an engine. However, I find something innately satisfying with getting your hands dirty and figuring out how to do something you normally don't do. I have always enjoyed figuring out how to fix things and perhaps that is what drew me into computers and software.
 

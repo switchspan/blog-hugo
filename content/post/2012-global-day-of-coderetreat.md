@@ -1,12 +1,17 @@
 +++
 date = "2012-12-09"
 title = "Global day of Coderetreat (2012)"
-description = "Yesterday I participated in my first coderetreat"
+#description = "Yesterday I participated in my first coderetreat"
 categories = [
   "career",
   "programming",
   "productivity"
 ]
+slug = "coderetreat2012"
+image = "/images/IMG_1510.jpg"
+comments = true	# set false to hide Disqus
+share = true		# set false to hide share buttons
+author = "Ken Taylor"
 +++
 Yesterday I participated in my first
 [coderetreat](http://coderetreat.org) at [757 Creative Space](http://www.757creativespace.com) in Norfolk, VA.
@@ -17,7 +22,7 @@ Hero](http://www.bootstraphero.com) and [xTuple](http://www.xtuple.com/) sponsor
 
 ## What is a code retreat?
 
-{{% image class="left" src="/images/IMG_1509.jpg" width="184" height="244" %}}
+{{% image class="left" src="/images/conways_gameoflife.png" width="600" %}}
 If you haven’t been to a coderetreat – it basically a day of honing your software development skills to become a better developer. 
 If you are serious about your profession as a software developer – these
 types of training opportunities are ones you should attend. In our day’s
@@ -31,7 +36,6 @@ Haines.
 
 ## The day's activities
 
-{{% image class="right" src="/images/IMG_1510.jpg" width="244" height="184" %}}
 The only project used for the day is to code a version of [Conway's Game
 of Life](http://en.wikipedia.org/wiki/Conway%27s_game_of_life). 
 Now, I knew a little about the Game of Life and that it was typically central to a coderetreat, but I purposefully did not look up any info on coding it, because I didn’t want it to take away from the discovery experience. 
@@ -43,7 +47,7 @@ Ryan did a great job of getting everyone introduced and oriented. Once we had al
 
 Then came the curve-balls: requirements changing during the iterations, ping-pong coding (switching the person typing and observing between writing functions), blind coding (the 2 programmers couldn’t talk, and one wrote the tests – the other the code to pass the test) and timed coding from test to implementation.
 
-{{% image class="left" src="/images/IMG_1512.jpg" width="244" height="184" %}}
+{{% image class="left" src="/images/IMG_1512.jpg" width="600" %}}
 
 Each of these “curve-balls” built on the other and exposed some of the typical flaws in the way most people write software as well as the things that can be done to fix it. 
 After each 45 minute iteration we held a sort of “after action review” to see what each person had learned from the iteration. 
